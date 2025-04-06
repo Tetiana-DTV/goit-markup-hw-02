@@ -40,15 +40,17 @@ body {
 }
 
 .span-logo {
+    color: var(--navy-blue);
+    text-decoration: none;
+}
+.header-logo {
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
-    line-height: 117%;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navy-blue);
-    text-decoration: none;
-
+    color: var(--iris);
 }
 
 .header-list-nav {
@@ -81,15 +83,17 @@ body {
 }
 
 .page-address {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
     color: var(--slate);
     font-style: normal;
 }
-
+.contacts-link {
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+}
 
 .header-address a {
     font-family: var(--font-family);
