@@ -61,7 +61,7 @@ body {
     list-style-type: none;
 }
 
-.header-list-item a {
+.studio a {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -80,7 +80,7 @@ body {
     color: var(--ocean);
 }
 
-.address {
+.page-address {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
@@ -91,16 +91,13 @@ body {
 }
 
 
-.header-address-list a {
+.address-ul a {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--slate);
-    text-decoration: none;
-}
-.header-address-list-item {
     text-decoration: none;
     list-style-type: none;
 }
