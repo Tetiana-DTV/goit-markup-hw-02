@@ -48,7 +48,7 @@ body {
     text-transform: uppercase;
     color: var(--navy-blue);
     text-decoration: none;
-    
+
 }
 
 .header-list-nav {
@@ -73,17 +73,21 @@ body {
 .header-list-nav a:hover {
     color: var(--ocean);
 }
+.header-list-nav a:focus {
+    color: var(--ocean);
+}
 .header-list-nav a:active {
     color: var(--ocean);
 }
 
-address {
+.address {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--slate);
+    font-style: normal;
 }
 
 
@@ -127,9 +131,7 @@ address ul li a:focus {
     color: var(--white);
     text-align: center;
 }
-/* h1 {
-    color: var(--white);
-} */
+
 .section-one {
     background: var(--navy-blue);
 }
@@ -149,6 +151,7 @@ ul {
 }
 .button:focus {
     background-color: var(--ocean);
+    background-color: #4D5AE5;
 }
 
 .section-feature-name {
@@ -181,6 +184,10 @@ ul {
     color: var(--navy-blue);
     text-align: center;
     text-transform: capitalize;
+}
+
+.team-card-list{
+    background-color: #FFFFFF;
 }
 
 .personal-name {
