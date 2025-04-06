@@ -146,12 +146,15 @@ ul {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: var(--white);
-    background-color: var(--ocean);
+    background-color: var(--iris);
     cursor: pointer;
 }
+.button:hover {
+    background-color: var(--ocean);
+}
+
 .button:focus {
     background-color: var(--ocean);
-    background-color: #4D5AE5;
 }
 
 .section-feature-name {
@@ -190,14 +193,13 @@ ul {
     background-color: #FFFFFF;
 }
 
-.personal-name {
+.name {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    background-color: #FFFFFF;
 }
 .personal-position {
     font-family: var(--font-family);
@@ -206,6 +208,9 @@ ul {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--slate);
+}
+.team-name-list {
+    background-color: var(--white);
 }
 
  /* Our Portfolio */
